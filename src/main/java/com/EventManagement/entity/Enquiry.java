@@ -23,7 +23,7 @@ public class Enquiry {
     private UUID enquiryId;
     private String clientId; // Reference to Client by UUID
     private String providerId; // Reference to ProviderRepo by UUID
-    private String  serviceId; // Reference to Service by UUID
+    private String  serviceId; // Reference to ServiceOffering by UUID
     private LocalDate enquiryDate;
     private String enquiryNotes;
     private String contactNo;
