@@ -22,7 +22,7 @@ public class Enquiry {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID enquiryId;
     private String clientId; // Reference to Client by UUID
-    private String providerId; // Reference to Provider by UUID
+    private String providerId; // Reference to ProviderRepo by UUID
     private String  serviceId; // Reference to Service by UUID
     private LocalDate enquiryDate;
     private String enquiryNotes;

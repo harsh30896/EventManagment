@@ -18,7 +18,7 @@ public class Service {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID serviceId;
-    private UUID providerId; // Reference to Provider by UUID
+    private UUID providerId; // Reference to ProviderRepo by UUID
     private String serviceName;
     private Double price;
     private LocalDate availabilityFrom;
